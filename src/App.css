@@ -367,18 +367,7 @@ button {
   }
 }
 
-    text-decoration: none;
-    transition: box-shadow 0.3s;
-
-    &:hover {
-      box-shadow: var(--shadow);
-    }
-    .button-icon {
-      height: 18px;
-      width: 18px;
-    }
-  }
-
+.side-card--spark ul {
   @media (max-width: 1024px) {
     margin-top: 20px;
     flex-wrap: wrap;
